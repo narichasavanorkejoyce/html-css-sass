@@ -1,0 +1,13 @@
+$background-color: #fefefe;
+$font-color: #4e4e4e;
+$gray-font: #e5e5e5;
+$base-color: #f00;
+$font-base-color: #fff;
+
+@function tint($color, $percentage) {
+  @return mix($base-color, $color, $percentage)
+};
+
+@function shade($color, $percentage) {
+  @return mix($font-base-color, $color, $percentage)
+};

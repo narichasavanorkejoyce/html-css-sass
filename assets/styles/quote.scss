@@ -1,0 +1,12 @@
+$default-font: 120% Helvetica, sans-serif;
+
+
+.quote {
+  // background-color: darken($gray-font, 10%); // gray
+  background-color: tint($gray-font, 50%);
+  color: shade($font-base-color, 10%);
+  font: $default-font;
+  font-style: italic;
+  padding: 1%;
+  text-align: center;
+};
